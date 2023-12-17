@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    gap: var(--spacing-4, 1.5rem);
+}
+
+nav.title {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    padding: 0.875rem 1.5rem;
+}
