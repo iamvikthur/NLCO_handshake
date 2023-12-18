@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
-  return <h1>NLCO</h1>;
+  return <Navbar />;
 }
 
 export default App;
