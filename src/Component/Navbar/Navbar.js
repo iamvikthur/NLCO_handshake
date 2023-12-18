@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaLinkedinIn } from "react-icons/fa6";
-import { IoLogoInstagram, IoLogoFacebook, IoLogoTwitter } from "react-icons/io5";
+import { IoLogoFacebook, IoLogoTwitter } from "react-icons/io5";
+import { RiInstagramFill } from "react-icons/ri";
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <nav>
       <Link to='/' className='title'>
-        <img alt='logo' />
+        <img src={require('../../logo.svg')} alt='logo' />
       </Link>
-      <ul>
+      <ul className='Navigator'>
         <li>
           <Link to='/about'>About</Link>
         </li>
@@ -26,26 +27,20 @@ const Navbar = () => {
         <li>
           <Link to='/contact'>Contact</Link>
         </li>
-        <li>
+        <div className='social'>
           <Link>
             <IoLogoFacebook />
           </Link>
-        </li>
-        <li>
           <Link>
             <IoLogoTwitter />
           </Link>
-        </li>
-        <li>
           <Link>
-            <IoLogoInstagram />
+            <RiInstagramFill />
           </Link>
-        </li>
-        <li>
           <Link>
             <FaLinkedinIn />
           </Link>
-        </li>
+        </div>
       </ul>
     </nav>
   )
