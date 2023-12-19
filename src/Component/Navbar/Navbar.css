@@ -1,8 +1,11 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    padding-bottom: 2px;
+    justify-content: space-between;
     align-items: center;
     background-color: transparent;
+    position: sticky;
+    top: 0;
 }
 
 nav.title {
@@ -18,18 +21,50 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li a {
+#nav-a ul li a {
     display: flex;
     text-decoration: none;
-    padding: 0.875rem 1.5rem;
+    padding: 0.9rem 1.5rem;
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: -2%;
+    color: black;
+    transition: 0.5s ease-in-out;
 }
 
-.social {
+.scrolled {
+    background-color: #F7B021;
+}
+
+.scrolled:hover {
+    color: white;
+}
+
+#nav-a ul li a:hover {
+    color: #F7B021;
+}
+
+#nav-b ul li a {
+    padding: 5px;
+    gap: 30px;
+    cursor:context-menu;
+    justify-content: flex-end;
+}
+
+#icon {
+    transition: 0.5 ease-in-out;
+    margin-top: -2px;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.navigator {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--spacing-2, 1rem);
-    padding-left: 1.5rem;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.social:hover {
+    color: #F7B021;
 }
