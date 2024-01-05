@@ -23,7 +23,7 @@
     color: #F7B021;
 }
 
-.input, .select {
+#regIn, .select {
     display: flex;
     height: 3.3125rem;
     width: 100%;
@@ -70,7 +70,7 @@ h1 {
     display: inline-block;
 }
 
-p {
+#regP {
     flex: 1 0 0;
     color: var(--Text-Text-Secondary, #252D3C);
     text-align: center;
@@ -84,7 +84,7 @@ p {
 .regBtn {
     display: flex;
     width: 8.625rem;
-    padding: 0.6875rem 2.4375rem;
+    padding: 0.6rem 1.5rem;
     justify-content: center;
     align-items: center;
     gap: 0.25rem;
@@ -98,18 +98,25 @@ p {
     letter-spacing: -0.015rem;
 }
 
-.grey-state {
+.greyState {
     display: flex;
-    padding: 0.6875rem 2.4375rem;
+    padding: 0.6rem 1.5rem;
+    width: 8.625rem;
     justify-content: center;
     align-items: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.015rem;
     gap: 0.25rem;
     flex: 1 0 0;
+    color: #A2A7B0;
     border-radius: var(--Radius-sm, 0.25rem);
     background: var(--Background-Disabled-BG, #C0C4CA);
 }
 
-::placeholder, .choose{
+#regIn::placeholder, .choose{
     color: var(--Text-Text-Tertiary, #5D6676);
     font-size: 0.875rem;
     font-style: normal;
@@ -118,36 +125,15 @@ p {
     letter-spacing: -0.0175rem;
 }
 
-.check-container {
-    display: flex;
-    position: relative;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.check-container input {
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    border: 10px solid;
-}
-
-.check-container input:checked {
-    background-color: #F7B021;
-}
-
-.check-container label {
-    padding-left: 1.5rem;
-    color: var(--Text-Text-Tertiary, #5D6676);
-    font-family: Montserrat;
+#regIn[type] {
+    color: var(--Text-Text-Tertiary, #252D3C);
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 1.3125rem */
-    letter-spacing: -0.0175rem;
+    letter-spacing: -0.0175rem;   
 }
+
 
 /*for card*/
 .modal-content {
@@ -182,7 +168,7 @@ p {
         line-height: 150%; /* 1.875rem */
         letter-spacing: -0.025rem;
     }
-    p {
+    #regP {
         flex: 1 0 0;
         color: var(--Text-Text-Primary, #161B23);
         text-align: center;
@@ -204,6 +190,9 @@ p {
         width: 100%;
     }
     .regBtn {
+        width: 100%;
+    }
+    .greyState {
         width: 100%;
     }
 }

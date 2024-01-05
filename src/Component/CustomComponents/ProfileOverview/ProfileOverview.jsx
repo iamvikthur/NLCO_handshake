@@ -6,9 +6,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Twitter from '../../Component/Twitter/Twitter'
-import LinkedIn from '../LinkedIn/LinkedIn';
-import Instagram from '../Instagram/Instagram';
+import Twitter from '../SocialIcons/Twitter/Twitter'
+import LinkedIn from '../SocialIcons/LinkedIn/LinkedIn';
+import Instagram from '../SocialIcons/Instagram/Instagram';
 import profile from '../../Assets/bird.jpg.jpg'
 
 export default function ProfileOverview() {

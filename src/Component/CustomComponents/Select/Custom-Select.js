@@ -1,7 +1,7 @@
 // CustomSelect.js
 import React, { useState, useEffect, useRef } from 'react';
 import { IoChevronDownOutline, IoChevronUpOutline } from 'react-icons/io5';
-import ArrowUpright from '../ArrowUpright/ArrowUpright';
+import ArrowUpright from '../SVGIcons/ArrowUpright/ArrowUpright';
 import './Custom-Select.css';
 
 const CustomSelect = ({ options, word, className }) => {

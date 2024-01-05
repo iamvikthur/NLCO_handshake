@@ -32,6 +32,7 @@
     flex-shrink: 0;
     width: 24px;
     height: 24px;
+    cursor: pointer;
   }
   
   .icon.rotate {
@@ -60,9 +61,12 @@
   
   .option {
     padding: 10px;
-    cursor: pointer;
     display: flex;
     transition: background-color 0.3s;
+  }
+
+  .selected-option {
+    color: #161B23;
   }
   
   .option:hover {

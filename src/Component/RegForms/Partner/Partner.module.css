@@ -1,0 +1,138 @@
+.partCon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 45rem;
+    padding: auto;
+}
+
+.partTitle h1 {
+    color: var(--Text-Text-Primary, #161B23);
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: -0.04rem;
+}
+
+.backBtn button {
+    display: flex;
+    padding: 0.34375rem var(--spacing-1, 0.5rem) 0.34375rem var(--spacing-2, 1rem);
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: var(--Radius-xl, 2rem);
+    color: var(--Brand-Quartenary, #B9B9C7);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.0175rem;
+}
+
+.backBtn button:hover {
+    color: #252D3C;
+    border-radius: var(--Radius-xl, 2rem);
+    background: rgba(156, 168, 188, 0.242);
+    display: flex;
+    padding: 0.34375rem var(--spacing-2, 1rem) 0.34375rem var(--spacing-1, 0.5rem);
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.partBtn {
+    display: flex;
+    width: 8.625rem;
+    padding: 0.6rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: var(--Radius-sm, 0.25rem);
+    background: #5BC5C9;
+    color: var(--Brand-Primary, #1D1E4A);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.125rem */
+    letter-spacing: -0.015rem;
+    float: right;
+}
+
+.partInput {
+    display: flex;
+    height: 3.3125rem;
+    width: 100%;
+    padding: var(--spacing-2, 1rem);
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    flex: auto;
+    border: none;
+    border-bottom: 0.6px solid var(--Borders-Stroke, #C0C4CA);
+    color: #252D3C;
+}
+
+.partInput::placeholder {
+    color: var(--Text-Text-Tertiary, #5D6676);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.0175rem;
+}
+
+.partTitle h1 span {
+    color: #F7B021;
+}
+
+.partTitle p{
+    display: flex;
+    color: #161B23;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: -0.02rem;
+    width: 100%;
+}
+
+.partLabel p{
+    color: #161B23;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: -0.02rem;
+}
+
+.partLabel div span {
+    color: #E8342E;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+.partInput[type] {
+    color: var(--Text-Text-Tertiary, #161B23);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.3125rem */
+    letter-spacing: -0.0175rem;
+}
+
+@media (max-width: 568px) {
+    .portCon {
+        width: 23.4375rem;
+    }
+    .partBtn {
+        width: 100%;
+    }
+    .partLabel div span {
+        margin-top: 1rem;
+    }
+}
