@@ -1,10 +1,10 @@
 import React, { useMemo, useState } from 'react'
 import styles from './Partner.module.css'
 import { TextareaAutosize } from '@mui/material'
-import CustomSelect from '../Select/Custom-Select'
+import CustomSelect from '../../CustomComponents/Select/Custom-Select'
 import countryList from 'react-select-country-list'
-import BackArrow from '../SVGIcons/BackArrow/BackArrow'
-import ArrowUpright from '../SVGIcons/ArrowUpright/ArrowUpright'
+import BackArrow from '../../SVGIcons/BackArrow/BackArrow'
+import ArrowUpright from '../../SVGIcons/ArrowUpright/ArrowUpright'
 import { Link } from 'react-router-dom'
 
 const Partner = () => {

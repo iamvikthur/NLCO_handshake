@@ -1,9 +1,9 @@
 import "./App.css";
-import Partner from "./Component/Partner/Partner";
+import Partner from "./Component/RegForms/Partner/Partner";
 import Register from "./Component/RegForms/Registeration/Register";
-import SpeakerApp from "./Component/SpeakerApp";
-import ProfileOverview from "./Component/ProfileOverview/ProfileOverview";
-import Contacts from "./Component/Contacts/Contacts";
+import SpeakerApp from "./Component/RegForms/SpeakerApp/index";
+import ProfileOverview from "./Component/CustomComponents/ProfileOverview/ProfileOverview";
+import Contacts from "./Component/RegForms/Contacts/Contacts";
 import ComingSoon from "./Component/RegForms/WeAreComing/Index";
 import { Route, Routes } from "react-router-dom";
 function App() {

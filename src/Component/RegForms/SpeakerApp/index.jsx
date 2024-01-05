@@ -3,9 +3,9 @@ import { TextareaAutosize } from '@mui/material';
 import countryList from 'react-select-country-list';
 import { Link } from 'react-router-dom';
 import styles from './Speaker.module.css'
-import BackArrow from '../SVGIcons/BackArrow/BackArrow';
-import CustomSelect from '../Select/Custom-Select';
-import ArrowUpright from '../SVGIcons/ArrowUpright/ArrowUpright';
+import BackArrow from '../../SVGIcons/BackArrow/BackArrow';
+import CustomSelect from '../../CustomComponents/Select/Custom-Select';
+import ArrowUpright from '../../SVGIcons/ArrowUpright/ArrowUpright';
 
 const SpeakerApp = () => {
 	const [formData, setFormData] = useState({

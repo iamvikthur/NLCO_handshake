@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Cat from '../../Assets/contactImage1.jpg';
+import Cat from '../../../Assets/contactImage1.jpg';
 import { TextareaAutosize } from '@mui/material';
-import ArrowUpright from '../SVGIcons/ArrowUpright/ArrowUpright';
+import ArrowUpright from '../../SVGIcons/ArrowUpright/ArrowUpright';
 import styles from './Contacts.module.css';
 
 const Contacts = () => {

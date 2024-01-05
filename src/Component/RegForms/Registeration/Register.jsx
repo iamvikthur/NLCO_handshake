@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import ArrowUpright from "../../SVGIcons/ArrowUpright/ArrowUpright";
 import DisabledArrowUp from "../../SVGIcons/DisabledArrowUp/DisabledArrowUp";
-import CustomSelect from "../../Select/Custom-Select";
+import CustomSelect from "../../CustomComponents/Select/Custom-Select";
 import CustomCheckbox from "../../CustomComponents/Checkbox/Custom-Checkbox";
 import Modal from "../../CustomComponents/Card/Card";
 import countryList from "react-select-country-list";
